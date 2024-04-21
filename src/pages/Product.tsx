@@ -1,5 +1,4 @@
 import { FormEvent, useState } from "react";
-import bioseq from 'bioseq';
 import { useNavigate } from "react-router-dom";
 
 export default function Product() {
