@@ -1,0 +1,79 @@
+
+.table_container:last-child {
+  margin-bottom: 5em;
+}
+
+.table_row {
+  display: flex;
+  flex-direction: row;
+
+  border-right: 2px solid darkslategrey;
+  border-left: 2px solid darkslategrey;
+}
+
+.table_row:first-child {
+  border-top: 2px solid darkslategrey;
+}
+
+.table_row:last-child {
+  border-bottom: 2px solid darkslategrey;
+}
+
+.table_cell {
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid darkslategrey;
+  @apply bg-secondary;
+}
+
+.table_header {
+  background-color: honeydew;
+}
+
+.table_nav_buttons {
+  margin: 0.5em;
+  border: 1px solid darkslategrey;
+  border-radius: 10px;
+  padding: .2em.4em;
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  @apply bg-secondary;
+}
+
+.horizontal_flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.alignments_container {
+  background-color: rgba(240, 248, 255, 0.8);
+  width: fit-content;
+  align-self: center;
+  padding: 1em;
+  border-radius: 1em;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: 2em;
+}
+
+.alignments_title {
+  align-self: flex-start;
+  margin-bottom: 1em;
+}
+
+.separator {
+  border-top: 2px solid black;
+  margin: 0.3em;
+}
+
+.alignment_results {
+  font-family: monospace, 'Courier New', Courier;
+}
